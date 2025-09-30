@@ -1,0 +1,168 @@
+.hero-banner {
+  background-image: url('../images/garaje.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 30px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  display: inline-block;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  color: #FCCC14;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.book-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #FCCC14;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #FCCC14;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #1F2837; 
+  color: #fff;
+  text-align: center;
+}
+
+.stat-item {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.stat-icon {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.stat-item h3 {
+  color:#FCCC14 ;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.stat-item h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 30px;
+  background-color: #0F1626;
+  color: #fff;
+}
+
+.about-text {
+  flex: 1 1 500px;
+  max-width: 600px;
+  padding-right: 30px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FCCC14; 
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ddd; 
+}
+
+.qualities-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; 
+  flex-wrap: wrap; 
+  margin-top: 30px;
+}
+
+.quality-block {
+  flex: 1 1 250px;
+  color: #fff;
+}
+
+.quality-block h3 {
+  font-size: 18px;
+  color: #FCCC14; 
+  margin-bottom: 10px;
+}
+
+.quality-block p {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.5;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #FCCC14;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.white {
+  color: #fff;
+}
+
+.yellow {
+  color: #FCCC14;
+}
